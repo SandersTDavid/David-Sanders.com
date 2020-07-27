@@ -170,7 +170,7 @@ body {
 .bg-purple{
   background-color: #672179;
 }
-.bg-lilac{
+.bg-yale-blue{
   background-color: #084a8a;
 }
 .bg-black{
@@ -179,4 +179,75 @@ body {
 .text-black{
   color: #000000;
 }
+
+/* About  */
+.about{
+  padding-top: 50px;
+}
+.love{
+  font-size: 1.5vw;
+  padding: 10vw;
+  text-align: center;
+  margin-bottom: 20vh;
+}
+.listen{
+  font-size: 1.5vw;
+  padding: 10vw;
+  text-align: center;
+  margin-bottom: 20vh;
+}
+.learn{
+  font-size: 1.5vw;
+  padding: 10vw;
+  text-align: center;
+  margin-bottom: 20vh;
+}
+/*Resize text on smaller screens */
+@media only screen and (max-width: 768px) {
+  .love{
+    font-size: 3vw;
+    padding: 10vw;
+    text-align: center;
+    margin-bottom: 20vh;
+  }
+  .listen{
+    font-size: 3vw;
+    padding: 10vw;
+    text-align: center;
+    margin-bottom: 20vh;
+  }
+  .learn{
+    font-size: 3vw;
+    padding: 10vw;
+    text-align: center;
+    margin-bottom: 20vh;
+  }}
+
+/* Services */
+
+.card-text-services{
+ padding: 15px;
+}
+@media (min-width: 992px) {
+.card-text-services{
+ padding: 100px;
+}}
+@media (min-width: 1200px) {
+.card-text-services{
+ padding: 150px;
+}}
+/* Background and text colors About */
+  .text-yale-blue{
+    color: #084a8a;
+  }
+
+/* Contact */
+.linkedIn{
+/* Might centralise the link for better design */
+}
+/* Bacground and text colors */
+  .bg-dark-cyan{
+    background-color: #0e76a8;
+  }
+
 /* Created by David Sanders */
