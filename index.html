@@ -35,10 +35,11 @@
 </head>
 
 <body>
+<div id="prevent-scroll-bounce">
 <!-- Header cover and menu -->
 <div class="header" role="img" aria-label="Background Cover">
  <nav class="navbar smart-scroll navbar-expand-md bg-black navbar-dark sidebarNavigation" data-sidebarClass="bg-light">
- <a class="navbar-brand" href="index.html"><img src="Media/David-Sanders-Logo-Transparent-White-Writing.png" width="260wh" class="img-fluid" alt="Responsive logo"></a>
+ <a class="navbar-brand" href="index.html"><img src="Media/David-Sanders-Logo-Transparent-White.svg" width="240wh" class="img-fluid" alt="Responsive logo"></a>
 <!-- Toggler/collapsibe Button -->
  <button class="navbar-toggler" type="button" data-toggle="collapse" >
  <span class="navbar-toggler-icon"></span>
@@ -72,7 +73,9 @@
 </div>
 <!-- Portfolio section -->
 <div class="portfolio" id="portfolio_Anchor">
- <h1 class="text-light text-center mb-4">Portfolio</h1>
+ <div class="section-header text-light text-center mb-4">
+ <h1 class=" text-center mb-4">Portfolio</h1>
+ </div>
  <div class="container flex">
  <div class="card-columns">
 <!-- Responsive Cards in three column stack -->
@@ -130,13 +133,13 @@
 </div>
 
 <div class="about" id="about_Anchor">
- <div class="page-header text-center mb-4">
+ <div class="section-header text-center mb-4">
  <h1 class="text-light mb-5">About</h1>
  </div>
 
-<div class="about-body text-light">
+ <div class="about-body text-light">
  <div class="love">
- <p>I love to learn, and I feel contentment when sharing knowledge with others. Together, I believe that these can build a great work-life connection with a team that can value each other’s abilities.</p>
+ <p>I love to learn and I feel contentment when sharing knowledge with others. Together, I believe that these can build a great work-life connection with a team that can value each other’s abilities.</p>
  </div>
 
  <div class="listen">
@@ -146,12 +149,11 @@
  <div class="learn">
  <p>My most powerful instinct is to provide innovation and I have confidence that with dedication we can achieve a well-established and reliable experience that will have a lasting influential effect on the company.</p>
  </div>
+ </div>
 </div>
 
-</div>
-
-<div class="about" id="services_Anchor">
- <div class="page-header text-center mb-4">
+<div class="services" id="services_Anchor">
+ <div class="section-header text-center mb-4">
  <h1 class="text-light mb-5">Services</h1>
  </div>
 
@@ -170,7 +172,7 @@
  <img src="Media/Virtual-Asisstant-Logo.jpg" class="card-img-top" alt="Bootstrap Logo">
  <div class="card-body p-3 bg-light text-yale-blue">
  <h5 class="card-title"></h5>
- <p class="card-text card-text-services">I offer a private flat-rate service to help clients set up their own WordPress website with their hosting plan. We talk through what the cPanel is and how to get their website up and running with a theme online.</p>
+ <p class="card-text card-text-services">I offer a private, flat-rate service to help clients set up their own WordPress website with their hosting plan. We talk through what the cPanel is and how to get their website up and running with a theme online.</p>
  </div>
  </div>
 
@@ -178,23 +180,43 @@
  </div>
 </div>
 
- <div class="about" id="skills_Anchor">
-  <div class="page-header text-center mb-4">
-  <h1 class="text-light mb-5">Skills</h1>
-  </div>
+<div class="about" id="skills_Anchor">
+ <div class="section-header text-center mb-4">
+ <h1 class="text-light mb-5">Skills</h1>
+ </div>
+
+ <div class="top-skills text-center">
+ <p>View 10 of my finest skills:</p>
+ </div>
+
+ <div class="top-skills-list text-center">
+ <p>Adobe Photshop/Illustrator/XD</p>
+ <p>Bootstrap 4 framework</P>
+ <p>C#</p>
+ <p>HTML5/CSS3</p>
+ <p>JavaScript</p>
+ <p>jQuery</p>
+ <p>React (Most recent skill)</p>
+ <p>Wordpress</p>
+ <p>SQL</p>
+ <p>Web hosting</p>
+ </div>
 
 
 </div>
 
 
-  <div class="about" id="contact_Anchor">
-   <div class="page-header text-center mb-4">
-   <h1 class="text-light mb-5">Contact</h1>
-   </div>
-<div class="linkedIn bg-dark-cyan">
-  <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="david-sanders-07336a164"><a class="LI-simple-link" href='https://uk.linkedin.com/in/david-sanders-07336a164?trk=profile-badge'>David Sanders</a></div>
+<div class="about" id="contact_Anchor">
+ <div class="section-header text-center mb-4">
+ <h1 class="text-light mb-5">Contact</h1>
+ </div>
+
+ <div class="linkedIn bg-dark-cyan">
+ <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="david-sanders-07336a164"><a class="LI-simple-link" href='https://uk.linkedin.com/in/david-sanders-07336a164?trk=profile-badge'>David Sanders</a></div>
+ </div>
 </div>
 
+</div>
 </body>
 
 </html>

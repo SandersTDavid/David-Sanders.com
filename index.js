@@ -44,8 +44,8 @@ window.onload = function() {
     if ($('.smart-scroll').length > 0) { // check if element exists
         var last_scroll_top = 0;
         $(window).on('scroll', function() {
-            scroll_top = $(this).scrollTop();
-            if(scroll_top < last_scroll_top) {
+          var scroll_top = $(this).scrollTop();
+            if(scroll_top <  100 || scroll_top <  last_scroll_top) {
                 $('.smart-scroll').removeClass('scrolled-down').addClass('scrolled-up');
             }
             else {
@@ -54,7 +54,7 @@ window.onload = function() {
             last_scroll_top = scroll_top;
         });
     }
-// Function for Scroll button on header
+// Function for Scroll arrow button on header
     $(function() {
       $(".scrollBtn").on('click', function(e) {
         e.preventDefault();
