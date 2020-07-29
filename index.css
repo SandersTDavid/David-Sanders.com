@@ -14,7 +14,7 @@ html, body {
   .section-header{
     padding: 30px 0 5px 0;
   }
-/* Header */
+/* Header section*/
 
 /* Responsive cover image*/
 .header {
@@ -152,7 +152,7 @@ html, body {
   opacity: 0.7;
 }
 
-/* Portfolio */
+/* Portfolio section */
 .portfolio{
   height: auto;
   background-color: #000000;
@@ -170,6 +170,13 @@ html, body {
 .card-columns {
     column-count: 3;
     }
+}
+.card-title{
+  padding: 0 20px 0 20px;
+
+}
+.card-text{
+  padding: 30px 10px 60px 20px;
 }
 /* Custom background and text colors */
 .bg-orange{
@@ -191,7 +198,7 @@ html, body {
   color: #000000;
 }
 
-/* About  */
+/* About section */
 .love{
   font-size: 18px;
   padding: 10vw;
@@ -231,10 +238,12 @@ html, body {
     margin-bottom: 20vh;
   }}
 
-/* Services */
+/* Services section */
+
 .card-text-services{
  padding: 15px;
 }
+
 @media (min-width: 992px) {
   .services{
    padding: 0 100px 0 100px;
@@ -254,6 +263,28 @@ html, body {
     color: #084a8a;
 }
 
+/* Skills section */
+.skills{
+    background-color: #000000;
+}
+
+.top-skills{
+  font-size: 22px;
+  padding: 10px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .top-skills{
+    font-size: 4vw;
+    padding: 10vw;
+    text-align: center;
+  }
+}
+
+.image-fit{
+
+}
 /* Contact */
 .linkedIn{
 /* Might centralise the link, awaiting feedback... */
