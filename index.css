@@ -9,11 +9,11 @@ html, body {
     width: 100%;
 
 	}
-
-/* Section titles */
+/* Titles on all section except portfolio */
   .section-header{
     padding: 100px 0 50px 0;
   }
+
 /* Header section*/
 
 /* Responsive cover image*/
@@ -47,110 +47,16 @@ html, body {
 }
 /* Smaller screens of 600px and below */
 @media only screen and (max-width: 768px) {
-
   .David-Sanders{
   	font-size: 12vw;
   	white-space: nowrap;
   }
   .I-am-David-Sanders{
-  		font-size: 3vw;
+  	font-size: 3vw;
   }
-.hero-text{
-      top: 45vh;
+  .hero-text{
+    top: 45vh;
 }}
-
-/* scroll Button */
-#scrollBtn a {
-  padding-top: 60px;
-  padding-bottom: 100px;
-}
-#scrollBtn a span {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 46px;
-  height: 46px;
-  margin-left: -23px;
-  border: 1px solid #ffffff;
-  border-radius: 100%;
-  box-sizing: border-box;
-}
-#scrollBtn a span::after {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  content: '';
-  width: 16px;
-  height: 16px;
-  margin: -12px 0 0 -8px;
-  border-left: 1px solid #ffffff;
-  border-bottom: 1px solid #ffffff;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  box-sizing: border-box;
-}
-#scrollBtn a span::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  content: '';
-  width: 44px;
-  height: 44px;
-  box-shadow: 0 0 0 0 rgba(255,255,255,.1);
-  border-radius: 100%;
-  opacity: 0;
-  -webkit-animation: sdb03 3s infinite;
-  animation: sdb03 3s infinite;
-  box-sizing: border-box;
-}
-@-webkit-keyframes sdb03 {
-  0% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 1;
-  }
-  60% {
-    box-shadow: 0 0 0 60px rgba(255,255,255,.1);
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-@keyframes sdb03 {
-  0% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 1;
-  }
-  60% {
-    box-shadow: 0 0 0 60px rgba(255,255,255,.1);
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-.scrollBtn a {
-  position: absolute;
-  margin: 74vh auto;
-  left: 0;
-  right: 0;
-  -webkit-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-  color: #ffffff;
-  font: normal 400 18px 'Josefin Sans', sans-serif;
-  letter-spacing: 0.1em;
-  text-decoration: none;
-  transition: opacity 0.3s;
-  z-index: 1;
-}
-.scrollBtn a:hover {
-  opacity: 0.7;
-}
 
 /* Portfolio section */
 .portfolio{
@@ -162,28 +68,26 @@ html, body {
   padding: 30px 0 5px 0;
 }
 
-.custom-portfolio{
-    padding: 30px 0 100px 0;
-}
-/* Card columns side by side at 576px */
+/* Card columns 2 by 2 at 576px and above */
 @media (min-width: 576px) {
     .card-columns {
         column-count: 2;
     }
 }
+/* Card columns 3 by 3 at 768px and above */
 @media (min-width: 768px) {
 .card-columns {
     column-count: 3;
     }
 }
+/* Portfolio card titles and content padding */
 .card-title{
   padding: 0 20px 0 20px;
-
 }
 .card-text{
   padding: 30px 10px 60px 20px;
 }
-/* Custom background and text colors */
+/* Custom background and text colors for Portfolio*/
 .bg-orange{
   background-color: #F7AD1E;
 }
@@ -204,6 +108,8 @@ html, body {
 }
 
 /* About section */
+
+/* Writing on about section */
 .love{
   font-size: 18px;
   padding: 10vw;
@@ -245,41 +151,37 @@ html, body {
 
 /* Services section */
 
+/* Add padding to text on cards in services section */
 .card-text{
  padding: 15px;
  margin-bottom: 40px;
 }
+/* No borders on cards in Services section*/
 @media (max-width: 768px) {
  .border-3 {
       border-width: 0px !important;
       border-color: white !important;
   }
 }
-
+/* Black borders on cards in Services section on larger screens*/
 @media (min-width: 768px) {
   .border-3 {
       border-width: 10px !important;
       border-color: black !important;
   }}
-
+/* Padding on cards in Services section on even larger screens*/
 @media (min-width: 992px) {
   .services{
    padding: 0 100px 0 100px;
  }
-  .card-text-services{
-
 }
-}
-
+/* Even more padding on cards in Services section on even more larger screens*/
 @media (min-width: 1200px) {
   .services{
    padding: 0 170px 0 170px;
  }
-  .card-text-services{
-   /* padding: 150px; */
 }
-}
-/* Background and text colors About */
+/* Background and text colors on Services section */
 .text-yale-blue{
     color: #084a8a;
 }
@@ -288,13 +190,13 @@ html, body {
 .skills{
     background-color: #000000;
 }
-
+/* Heading 2 for skills */
 .top-skills{
   font-size: 22px;
   padding: 10px;
   text-align: center;
 }
-
+/* Re-size heading 2 for skills section */
 @media only screen and (max-width: 768px) {
   .top-skills{
     font-size: 4vw;
@@ -302,13 +204,13 @@ html, body {
     text-align: center;
   }
 }
-.image-fit{
+/* Shodoww on skills */
+.image-shadow{
   box-shadow: 0 0 1px 5 rgba(0, 0, 0, 1);
 }
+
 /* Contact */
-.linkedIn{
-/* Might centralise the link, awaiting feedback... */
-}
+
 /* Bacground and text colors */
 .bg-dark-cyan{
     background-color: #0e76a8;
