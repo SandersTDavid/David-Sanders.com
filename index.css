@@ -12,7 +12,7 @@ html, body {
 
 /* Section titles */
   .section-header{
-    padding: 30px 0 5px 0;
+    padding: 100px 0 50px 0;
   }
 /* Header section*/
 
@@ -157,6 +157,11 @@ html, body {
   height: auto;
   background-color: #000000;
 }
+/* Padding around portfolio header */
+.section-portfolio-header{
+  padding: 30px 0 5px 0;
+}
+
 .custom-portfolio{
     padding: 30px 0 100px 0;
 }
@@ -240,24 +245,40 @@ html, body {
 
 /* Services section */
 
-.card-text-services{
+.card-text{
  padding: 15px;
+ margin-bottom: 40px;
 }
+@media (max-width: 768px) {
+ .border-3 {
+      border-width: 0px !important;
+      border-color: white !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .border-3 {
+      border-width: 10px !important;
+      border-color: black !important;
+  }}
 
 @media (min-width: 992px) {
   .services{
    padding: 0 100px 0 100px;
  }
   .card-text-services{
-   padding: 100px;
-}}
+
+}
+}
+
 @media (min-width: 1200px) {
   .services{
    padding: 0 170px 0 170px;
  }
   .card-text-services{
-   padding: 150px;
-}}
+   /* padding: 150px; */
+}
+}
 /* Background and text colors About */
 .text-yale-blue{
     color: #084a8a;
@@ -281,9 +302,8 @@ html, body {
     text-align: center;
   }
 }
-
 .image-fit{
-
+  box-shadow: 0 0 1px 5 rgba(0, 0, 0, 1);
 }
 /* Contact */
 .linkedIn{
