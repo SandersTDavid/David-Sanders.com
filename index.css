@@ -21,7 +21,7 @@ html, body {
 		background-image: url("Media/Header.png");
 	  background-position: center center;
 	  background-repeat: no-repeat;
-	  background-attachment: fixed;
+	  /* background-attachment: fixed; */
 	  background-size: cover;
     background-origin: border-box;
 	  max-width: 100%;
@@ -208,7 +208,15 @@ html, body {
 .image-shadow{
   box-shadow: 0 0 1px 5 rgba(0, 0, 0, 1);
 }
-
+/* Github card in Skills section */
+.card-size-github {
+  height: 150px;
+  margin: 0 auto;
+  float: none;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  width: 18rem;/
+}
 /* Contact */
 
 /* Bacground and text colors */
