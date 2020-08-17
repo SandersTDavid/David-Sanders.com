@@ -54,13 +54,6 @@ window.onload = function() {
             last_scroll_top = scroll_top;
         });
     }
-// Function for Scroll arrow button on header
-    $(function() {
-      $(".scrollBtn").on('click', function(e) {
-        e.preventDefault();
-        $('html, body').animate({ scrollTop: $(window).height() + 110}, 600);
-      });
-    });
     })
 
   } else {

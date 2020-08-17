@@ -14,8 +14,6 @@
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
  <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="menu.css"/>
  <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="index.css"/>
- <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="scroll-Btn.css"/>
- <script id="applicationScript" type="text/javascript" src="index.js"></script>
  <!-- Favicon -->
  <link rel="apple-touch-icon" sizes="180x180" href="Media/favicon/apple-touch-icon.png">
  <link rel="icon" type="image/png" sizes="32x32" href="Media/favicon/favicon-32x32.png">
@@ -40,9 +38,7 @@
 </head>
 
 <body>
-<div id="prevent-scroll-bounce">
 <!-- Header cover and menu -->
-<div class="header" role="img" aria-label="Background Cover">
  <nav class="navbar smart-scroll navbar-expand-md bg-black navbar-dark sidebarNavigation" data-sidebarClass="bg-light">
  <a class="navbar-brand" href="index.html"><img src="Media/David-Sanders-Logo-Transparent-White.svg" width="240wh" class="img-fluid" alt="Responsive logo"></a>
 <!-- Toggler/collapsibe Button -->
@@ -63,23 +59,17 @@
  </div>
 </nav>
 <!-- Text on cover picture> -->
- <div class="hero-text">
- <div class="David-Sanders text-light">
- <span>David Sanders</span>
- </div>
- <div class="I-am-David-Sanders text-light">
- <span>I am a graduate software developer and Web Development specialist. Welcome to my world.</span>
- </div>
- </div>
-<!-- Scroll button -->
- <div id="scrollBtn" class="scrollBtn">
-  <a href="#scroll"><span></span></a>
+<div class="header">
+  <img src="Media/newyork-skyline.jpg" alt="" class="header-image">
+ <div class="I-am-David-Sanders text-left">
+ Graduate software developer and Web Application specialist.
  </div>
 </div>
+
 <!-- Portfolio section -->
-<div class="portfolio" id="portfolio_Anchor">
+<div class="portfolio bg-black" id="portfolio_Anchor">
  <div class="section-portfolio-header text-light text-center mb-4">
- <h1 class=" text-center mb-4">Portfolio</h1>
+ <div class=" text-center mb-4">Portfolio</div>
  </div>
  <div class="container flex">
  <div class="card-columns">
@@ -136,7 +126,7 @@
  </div>
  </div>
 </div>
-
+<!-- About section -->
 <div class="about" id="about_Anchor">
  <div class="section-header text-center mb-4">
  <h1 class="text-light mb-5">About</h1>
@@ -156,8 +146,8 @@
  </div>
  </div>
 </div>
-
-<div class="services" id="services_Anchor">
+<!-- Services Section -->
+<div class="services bg-black" id="services_Anchor">
  <div class="section-header text-center mb-4">
  <h1 class="text-light mb-5">Services</h1>
  </div>
@@ -188,9 +178,8 @@
 
  </div>
  </div>
-
 </div>
-
+<!-- Skills Section -->
 <div class="skills" id="skills_Anchor">
  <div class="section-header text-center mb-4">
  <h1 class="text-light mb-5 text-light">Skills</h1>
@@ -267,7 +256,7 @@
  </div>
 </div>
 
-
+<div class="skills-extra">
  <div class="top-skills text-center text-light">
  <p>View some of my projects on Github:</p>
  </div>
@@ -277,7 +266,7 @@
  <img class="img-fluid rounded" src="Media/Github-Logo.png" alt="Github Logo">
  <a href="https://github.com/Vitamindrops" target="_blank" class="stretched-link"></a>
  </div>
- </div>
+</div>
 
 <div class="contact" id="contact_Anchor">
  <div class="section-header text-center mb-4">
@@ -291,6 +280,6 @@
 
 </div>
 </body>
-
+ <script id="applicationScript" type="text/javascript" src="index.js"></script>
 </html>
 <!-- Created by David Sanders -->
