@@ -72,8 +72,17 @@ nav .navbar-nav li a:hover{
 /* Top menu text underline */
 a .underline{
   position: relative;
-  text-decoration: none;
   display: inline-block;
+}
+.btn{
+  text-decoration: none !important;
+  font-size: 2.7vh;
+}
+@media only screen and (max-width: 768px) {
+  .btn{
+    text-decoration: none !important;
+    font-size: 1.4vh;
+  }
 }
 .underline:after {
   display: block;
@@ -105,5 +114,13 @@ a .underline{
 /* Hide Logo behind side menu */
 .navbar-brand{
   z-index: 200;
+}
+.navbar-toggler{
+  margin-right: 10px;
+}
+.navbar-toggler:focus,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
 }
 /* Created by David Sanders */
