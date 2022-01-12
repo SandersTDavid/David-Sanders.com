@@ -60,3 +60,4 @@ window.onload = function() {
     console.log("Page Requires jQuery")
   }
 }
+$grid.masonry('reloadItems');
